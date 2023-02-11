@@ -1,0 +1,13 @@
+$accent: #2B4074;
+$text-color: #4A4A4A;
+$bg-color: #F9F6E5;
+
+%title-after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 8px;
+    width: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
